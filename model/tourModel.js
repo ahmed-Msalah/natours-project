@@ -11,7 +11,7 @@ mongoose
     useUnifiedTopology: true,
   })
   .then((con) => {
-    console.log('done!');
+    console.log('DB connected');
   });
 
 const tourSchema = new mongoose.Schema({
